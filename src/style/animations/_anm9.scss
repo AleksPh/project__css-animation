@@ -1,0 +1,36 @@
+.lastItem{  
+  flex-direction: column;
+}
+.item__picture{
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}   
+.item__picture>img{
+  height: 200px;
+  width: 200px;
+  position: relative;
+
+  animation: lump 2s ease-in-out alternate infinite;
+  transform-origin: center bottom;
+}
+.item__text{
+  position: relative;
+ 
+  
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: rgb(103, 154, 231);
+}
+@keyframes lump{
+  0%{
+      transform: rotate(15deg);
+  }
+  100%{
+      transform: rotate(-15deg);
+  }
+}

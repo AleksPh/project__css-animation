@@ -1,0 +1,28 @@
+.main__fifth-animation{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+}
+.pre-block{
+  height: 36px;
+  width: 36px;
+  background-color: transparent;
+  border-radius: 18px;
+  margin-right: 10px;
+  animation: up-down 0.8s linear infinite alternate;
+  animation-delay: calc(0.16s*var(--i));
+}
+
+@keyframes up-down {
+  0%{
+      transform: scaleY(2.7);
+      border-radius: 10px;
+      background-color: #cb2bf3;
+  }
+  100%{
+      transform: scaleY(1);
+      border-radius: 18px;
+      background-color: #1dd7f8;
+  }
+}

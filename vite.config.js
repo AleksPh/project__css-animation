@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/project__css-animation/'
+  "homepage": "https://aleksph.github.io/project__css-animation"
 })

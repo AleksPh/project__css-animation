@@ -11,7 +11,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route exact path='/' element={<Upper/>}></Route>
+        <Route path='/' element={<Upper/>}></Route>
         <Route path='/All' element={<All/>}></Route>
         <Route path='/Cubes' element={<Cubes/>}></Route>
         <Route path='/Loaders' element={<Loaders/>}></Route>
